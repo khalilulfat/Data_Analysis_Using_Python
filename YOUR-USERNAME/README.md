@@ -1,11 +1,10 @@
-# Hi, I'm YOUR NAME 👋
+# Hi, I'm Khalil Aulfat 👋
 
 **Data analyst & database developer** - I design relational databases, write production-style T-SQL, and turn raw data into
 decisions with Python.
 
-- 🔭 Currently focused on **supply chain, logistics and e-commerce analytics**
 - 🧱 I like data that can be trusted: validated keys, tested pipelines, honest model evaluation
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) or at YOUR-EMAIL
+- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/khalil-aulfat) 
 
 ### 🛠️ Tools
 
@@ -22,7 +21,7 @@ decisions with Python.
 ## ⭐ Featured projects
 
 ### [📦 Late Deliveries, Lost Stars - Olist e-commerce analytics](https://github.com/YOUR-USERNAME/olist-delivery-analytics)
-Five-level Python analysis of **99,441 real orders**: data modelling → EDA → logistics diagnostics → statistical tests &
+<!-- Five-level Python analysis of **99,441 real orders**: data modelling → EDA → logistics diagnostics → statistical tests &
 customer segmentation → machine learning, forecasting and Portuguese NLP.
 **Headline:** a late parcel multiplies the odds of a 1-2 star review by ~18x - and a random train/test split would have
 picked the wrong prediction model.
@@ -37,7 +36,7 @@ append-only stock ledger that reconciles to the balances.
 ### [⚓ Marine Spares Database (SQL Server)](https://github.com/YOUR-USERNAME/sqlserver-marine-spares-db)
 A compact two-level design (warehouse → bin, group → product, order → line): 10 tables, 7 views, 7 procedures, with
 `ROLLUP` reporting, committed-stock logic and set-based picking.
-`T-SQL` `relational design` `ROLLUP` `stored procedures`
+`T-SQL` `relational design` `ROLLUP` `stored procedures` -->
 
 ---
 

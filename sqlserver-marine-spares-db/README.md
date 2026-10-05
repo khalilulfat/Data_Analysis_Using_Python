@@ -1,6 +1,6 @@
 # Marine Spares Database - SQL Server
 
-[![Build database](https://github.com/YOUR-USERNAME/sqlserver-marine-spares-db/actions/workflows/build-database.yml/badge.svg)](https://github.com/YOUR-USERNAME/sqlserver-marine-spares-db/actions/workflows/build-database.yml)
+[![Build database](https://github.com/khalilulfat/sqlserver-marine-spares-db/actions/workflows/build-database.yml/badge.svg)](https://github.com/YOUR-USERNAME/sqlserver-marine-spares-db/actions/workflows/build-database.yml)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2017%2B-CC2927)
 ![T-SQL](https://img.shields.io/badge/T--SQL-procedures%20%7C%20views-blue)
 
@@ -124,4 +124,4 @@ erDiagram
 ```
 
 ---
-**YOUR NAME** · [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) · [GitHub](https://github.com/YOUR-USERNAME)
+**YOUR NAME** · [LinkedIn](https://www.linkedin.com/in/khalil-aulfat) · [GitHub](https://github.com/khalilulfat)
