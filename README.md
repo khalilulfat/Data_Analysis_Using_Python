@@ -483,8 +483,8 @@ notebook. The notebooks stay short and readable, and a fix in one place applies 
 
 ## 👤 Author
 
-**YOUR NAME** - data analyst & database developer
+**Khalil Aulfat** - data analyst & database developer
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) · [GitHub](https://github.com/YOUR-USERNAME) · YOUR-EMAIL
+[LinkedIn](https://www.linkedin.com/in/khalil-aulfat) · [GitHub](https://github.com/khalilulfat) · 
 
 If you found this project useful, a ⭐ on the repository is appreciated!
