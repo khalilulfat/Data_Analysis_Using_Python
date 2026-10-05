@@ -1,0 +1,86 @@
+erDiagram
+    Warehouse ||--o{ StorageBin : "contains (level 2)"
+    ProductGroup ||--o{ Product : "groups (level 2)"
+    SalesOrder ||--|{ SalesOrderLine : "has lines (level 2)"
+    Supplier ||--o{ Product : "supplies"
+    Product ||--o{ StockLevel : "stocked as"
+    StorageBin ||--o{ StockLevel : "holds"
+    Customer ||--o{ SalesOrder : "places"
+    Warehouse ||--o{ SalesOrder : "ships"
+    Product ||--o{ SalesOrderLine : "ordered as"
+    Product ||--o{ StockMovement : "moved"
+    StorageBin |o--o{ StockMovement : "from or to"
+    Supplier |o--o{ StockMovement : "delivered"
+    SalesOrder |o--o{ StockMovement : "issued for"
+
+    Warehouse {
+        int WarehouseId PK
+        varchar WarehouseCode UK
+        nvarchar WarehouseName
+        nvarchar City
+    }
+    StorageBin {
+        int BinId PK
+        int WarehouseId FK
+        varchar BinCode UK
+        varchar BinType
+        decimal MaxWeightKg
+    }
+    ProductGroup {
+        int GroupId PK
+        varchar GroupCode UK
+        nvarchar GroupName
+        bit NeedsSecureStorage
+    }
+    Supplier {
+        int SupplierId PK
+        varchar SupplierCode UK
+        nvarchar SupplierName
+        smallint LeadTimeDays
+    }
+    Product {
+        int ProductId PK
+        varchar PartNumber UK
+        int GroupId FK
+        int SupplierId FK
+        decimal UnitCost
+        decimal ListPrice
+        int ReorderLevel
+    }
+    StockLevel {
+        int ProductId PK, FK
+        int BinId PK, FK
+        int QtyOnHand
+    }
+    Customer {
+        int CustomerId PK
+        varchar CustomerCode UK
+        varchar CustomerType
+        decimal CreditLimit
+        decimal DiscountPct
+    }
+    SalesOrder {
+        int OrderId PK
+        varchar OrderNumber UK
+        int CustomerId FK
+        int WarehouseId FK
+        date RequiredDate
+        varchar Status
+    }
+    SalesOrderLine {
+        int OrderLineId PK
+        int OrderId FK
+        int ProductId FK
+        int Quantity
+        decimal LineTotal "computed"
+    }
+    StockMovement {
+        bigint MovementId PK
+        varchar MovementType
+        int ProductId FK
+        int FromBinId FK
+        int ToBinId FK
+        int SupplierId FK
+        int OrderId FK
+        int Quantity
+    }
